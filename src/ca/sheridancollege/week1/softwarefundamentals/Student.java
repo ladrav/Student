@@ -12,6 +12,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private String address;
 
     /**
      * Get the value of name
@@ -31,6 +32,38 @@ public class Student {
         this.name = name;
     }
 
+        private String email;
+
+    /**
+     * Get the value of email
+     *
+     * @return the value of email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * Set the value of email
+     *
+     * @param email new value of email
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
 }
- 
-   
