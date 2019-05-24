@@ -6,7 +6,7 @@
 package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
- * commit pull
+ * commit pull, trying to pull for the second time :)
  * @author sidhu376
  */
 public class Student {
